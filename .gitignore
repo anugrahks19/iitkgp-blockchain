@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+**/node_modules/
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js Build and Cache
+.next/
+**/aegis-core/.next/
+out/
+**/aegis-core/out/
+
+# Hardhat/Solidity Build Artifacts and Cache
+artifacts/
+**/aegis-core/contracts/artifacts/
+cache/
+**/aegis-core/contracts/cache/
+typechain-types/
+**/aegis-core/contracts/typechain-types/
+
+# Production Build
+build/
+dist/
+**/aegis-core/build/
+**/aegis-core/dist/
+
+# IDEs and Editors
+.vs/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Environment Files (MUST NOT BE COMMITTED)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env*
+.env.example
+
+# Logs and Debug
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# System Files
+.DS_Store
+Thumbs.db
+*.pem
